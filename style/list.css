@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 上-搜索区 */
+#main .right .top{
+	width:100%;
+	height:126px;
+	/*background:#F63;*/
+}
+
+/* 搜索框容器 */
+#main .right .top .search-container{
+	width:300px;
+	height:38px;
+	border-radius:30px;
+	box-shadow:0 3px 10px -1px #999;/* Basic */
+	-moz-box-shadow:0 3px 10px -1px #999;/* Firefox */
+	-webkit-box-shadow:0 3px 10px -1px #999;/* Chrome|Safari|Opera|iOS Safari|Android Browser|Android Chrome */
+	margin:0 auto;
+	position:relative;
+	top:45px;
+	background:#FFF;
+}
+
+/* 搜索框容器-圈圈 */
+#main .right .top .search-container span{
+	display:block;
+	width:12px;
+	height:12px;
+	border:3px solid #03c7d7;
+	border-radius:50%;
+	position:relative;
+	top:27%;
+	left:13px;
+	float:left;
+	box-shadow:0 0 2px 0 #02d3e3,0 0 2px 0 #02d3e3 inset;/* Basic */
+	-moz-box-shadow:0 0 2px 0 #02d3e3,0 0 2px 0 #02d3e3 inset;/* Firefox */
+	-webkit-box-shadow:0 0 2px 0 #02d3e3,0 0 2px 0 #02d3e3 inset;/* Chrome|Safari|Opera|iOS Safari|Android Browser|Android Chrome */
+	/*background:#00F;*/
+}
+
+/* 搜索框容器-输入区 */
+#main .right .top .search-container .input{
+	width:230px;
+	height:100%;
+	line-height:45px;
+	float:left;
+	margin:0 0 0 16px;
+	font-size:0;
+	background:#00F;
+}
+
+/* 搜索框容器-输入框 */
+#main .right .top .search-container .input input{
+	width:200px;
+	height:100%;
+	border:none;
+	outline:none;
+	padding:0 15px;
+	text-align:center;
+}
+
+/* 中-列表区 */
+#main .right .middle{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	/*background:#C93;*/
+}
+
+/* 中-列表区-列表容器 */
+#main .right .middle .list-container{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+	/*background:#9C9;*/
+}
+
+/* 中-列表区-列表容器-列表 */
+#main .right .middle ul{
+	width:1010px;
+}
+
+/* 中-列表区-列表容器-列表项 */
+#main .right .middle ul li{
+	width:230px;
+	height:230px;
+	list-style-type:none;
+	float:left;
+	margin:10px 10px 10px 10px;
+	overflow:hidden;
+	/*box-shadow:0 0 10px 0 #000;*/
+	background:#FFF;
+}
+
+/* 超链接 */
+#main .right .middle ul a:link,#main .right .middle ul a:visited{
+	color:#000;
+}
+
+/* 文章封面 */
+#main .right .middle ul li .cover{
+	width:230px;
+	height:130px;
+	overflow:hidden;
+	/*background:#00F;*/
+}
+
+/* 文章封面图 */
+#main .right .middle ul li .cover img{
+	position:relative;
+	top:0;
+	left:0;
+}
+
+/* 文章信息 */
+#main .right .middle ul li .info{
+	width:230px;
+	height:100px;
+	overflow:hidden;
+	/*background:#FC9;*/
+}
+
+/* 标题 */
+#main .right .middle ul li .info .title{
+	font-size:14px;
+	overflow:hidden;
+	padding:3px 10px;
+	/*background:#FC9;*/
+}
+
+/* 简介 */
+#main .right .middle ul li .info .desc{
+	height:50px;
+	color:#555;
+	font-size:12px;
+	overflow:hidden;
+	padding:0 10px;
+	/*background:#CCC;*/
+}
+
+/* 用户与阅读量 */
+#main .right .middle ul li .info .u-a-r{
+	font-size:12px;
+	overflow:hidden;
+	padding:0 10px;
+	/*background:#FC9;*/
+}
+
+/* 用户 */
+#main .right .middle ul li .info .u-a-r .user{
+	float:left;
+}
+
+/* 阅读量 */
+#main .right .middle ul li .info .u-a-r .readnum{
+	float:right;
+}
